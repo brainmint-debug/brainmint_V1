@@ -1,0 +1,100 @@
+.app {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #f7f9fc;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-btn {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-info {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content-area {
+  display: flex;
+  flex-grow: 1;
+  overflow:hidden;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 1rem;
+  background-color: #f4f5f7;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.tab-menu a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.tab-menu a:hover {
+  text-decoration: underline;
+}
